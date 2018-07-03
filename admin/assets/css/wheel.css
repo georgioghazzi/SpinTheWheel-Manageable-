@@ -1,0 +1,8 @@
+.tt_spinner_center .easyImg img {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: -25px;
+    margin-top: -25px;
+}
