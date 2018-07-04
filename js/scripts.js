@@ -42,6 +42,7 @@ jQuery(document).ready(function(){
         color   : '#f44336',
       }],
       
+      
       button: '.spin-button',
       frame: 1,
     ajax: {

@@ -26,15 +26,25 @@ function Winner($key = false,$winner = ''){
 }
 
 
+
 $spin  = true;
 if($spin === true){
 	//Change 'id' to item key ( that you want to make a selector )
 	//Change 'f' to item value ( that you want to make a winner )
-	echo Winner('id','f');
+	
+	if(isset($_POST['action'])){
+		
+		echo Winner('id',$_POST['action']);
+	}else
+	{
+		echo Winner('id','f');
+		
+	}
+	
 	
 }else{
 	echo Winner(false);
 }
 
 ?>
-          
+
