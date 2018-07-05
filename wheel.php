@@ -37,7 +37,7 @@ if($spin === true){
 		echo Winner('id',$_POST['action']);
 	}else
 	{
-		echo Winner('id','f');
+		echo Winner('id','a');
 		
 	}
 	

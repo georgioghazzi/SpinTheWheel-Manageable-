@@ -6,12 +6,18 @@
  * https://codecanyon.net/licenses/standard
  *
  */
+ body{
+	 background-color:red;
+ }
 .easyWheel {
 	position: relative;
 	max-width: 100%;
 	margin: 4em auto 1em;
 	font-size: 25px;
 	font-weight: bold;
+}
+.spinner{
+	padding-top:40px;
 }
 .easyWheel,
 .easyWheel *{
